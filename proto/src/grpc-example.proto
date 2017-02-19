@@ -1,0 +1,16 @@
+syntax = 'proto3';
+package clojure_grpc_example;
+option java_package = "clojuregrpcexample.grpc";
+option java_outer_classname = "GrpcExample";
+
+message Person {
+  string name = 1;
+}
+
+message Answer {
+  string greeting = 1;
+}
+
+service Hello {
+  rpc SayHello(Person) returns (Answer) {}
+}
