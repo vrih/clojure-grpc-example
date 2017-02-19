@@ -8,8 +8,8 @@ This uses mount for starting the server.
 # Usage
  
 1. Run `gradle build` to generate the java classes from the proto file.
-
-FIXME
+2. The server is started from the `(mount/start)` in `core.clj`
+3. Run the client in `client.clj`.
 
 ## License
 
