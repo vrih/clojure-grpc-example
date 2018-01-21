@@ -11,6 +11,10 @@ This uses mount for starting the server.
 2. The server is started from the `(mount/start)` in `core.clj`
 3. Run the client in `client.clj`.
 
+# Note
+
+Some of the helper code comes from Captial One https://github.com/capitalone/cqrs-manager-for-distributed-reactive-services.
+
 ## License
 
 Copyright © 2017 FIXME
